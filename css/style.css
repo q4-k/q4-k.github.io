@@ -1,0 +1,87 @@
+:root{
+  --bg:#ececea;
+  --text:#1f1f1f;
+  --muted:#7a7a7a;
+  --line:#e2e2e0;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
+               "Hiragino Mincho ProN","Yu Mincho",serif;
+  line-height:1.6;
+}
+
+main{
+  max-width:720px;
+  margin:120px auto;
+  padding:0 24px;
+}
+
+h1{
+  font-weight:400;
+  letter-spacing:0.08em;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+h1.line{
+  padding-bottom: 8px;
+  border-bottom:1px solid var(--line);
+}
+
+nav{
+  padding-top:14px;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  margin: 6px 0;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.04em;
+  color: #3f3f3f;
+}
+
+a{
+  color:var(--text);
+  text-decoration:none;
+  display:inline-block;
+  margin:8px 0;
+  transition:opacity .2s ease;
+}
+
+a:hover{
+  opacity:.4;
+}
+
+footer{
+  margin-top:120px;
+  font-size:.85em;
+  color:var(--muted);
+}
+
+footer a {
+  color:inherit;
+}
+
+article{
+  margin-top: 12px;
+}
